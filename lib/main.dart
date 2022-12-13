@@ -7,12 +7,16 @@ import '2-design/1-drawer.dart';
 import '2-design/2-snackbar.dart';
 import '2-design/3-update_ui_orientation.dart';
 import '2-design/4-google_fonts.dart';
+import '3-effects/1-download_button_create.dart';
+
+import '3-effects/3-filter_selector/1-main_page.dart';
+import '3-effects/dnmee11.dart';
 
 void main() {
   runApp(
     MaterialApp(
       scaffoldMessengerKey: scaffoldKey,
-      home: const GoogleFontsExample(),
+      home: const ExampleInstagramFilterSelection(),
     ),
   );
 }
